@@ -94,7 +94,7 @@ export async function httpCtrl(name, port) {
   }
   const app = express();
   const httpServer = http.createServer(app);
-  httpServer.listen(port, () => {
+  httpServer.listen(process.env.PORT || port, () => {
     console.log(
       `\x1b[32minfo\x1b[39m:     [${name}] Http chatbot control running on http://localhost:${port}/`
     );

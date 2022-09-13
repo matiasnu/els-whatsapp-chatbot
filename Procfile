@@ -1,1 +1,2 @@
-web: yarn http-ctrl:dev:detach && yarn dev
+web: yarn http-ctrl:dev:detach
+worker: yarn dev
