@@ -2,3 +2,4 @@ node_modules/
 tokens/*
 logs/*
 package-lock.json
+.vscode/
