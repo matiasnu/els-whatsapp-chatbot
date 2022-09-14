@@ -1,2 +1,1 @@
-web: yarn http-ctrl:dev
-worker: yarn dev
+web: yarn http-ctrl:dev && yarn dev
