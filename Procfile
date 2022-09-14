@@ -1,1 +1,2 @@
-web: yarn http-ctrl:dev && yarn dev
+web: yarn http-ctrl:dev
+web: yarn dev
